@@ -14,7 +14,7 @@
 ## Introduction
 ESPHOME configuration (yaml) to bridge the UART communication between a Powerlink Hardware module (2.0, 3.0 or 3.1) and a Visonic Panel. Henceforth just called Powerlink and Panel respectivelly.
 
-The configuration includes a wifi connection for home automation to support, for example, the Home Asistant Integration.
+The configuration includes a wifi connection for home automation to support, for example, the Home Assistant Integration.
 
 I have an ESP32 microcontroller board acting as a bridge between the Powerlink and the Panel. It "splits" the RS232 communication between Powerlink and Panel, meaning that both communicate directly with the ESP32.
 
