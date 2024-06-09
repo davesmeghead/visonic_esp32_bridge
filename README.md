@@ -62,3 +62,13 @@ network_gateway: A.B.C.1
 visonic_bridge_esphome_encrypt: RANDOMKEY
 ```
 
+You will also need to set the values at the top of the yaml file to suit your setup
+
+```
+  RX_FROM_PANEL_TX: "19"      # ;    // This is Rx, connect this pin to the Tx on the Panel
+  TX_TO_PANEL_RX: "21"        # ;    // This is Tx, connect this pin to the Rx on the Panel
+  RX_FROM_POWERLINK_TX: "16"  # ;    // This is Rx, connect this pin to the Tx on the Powerlink 3.1 Hardware Module
+  TX_TO_POWERLINK_RX: "17"    # ;    // This is Tx, connect this pin to the Rx on the Powerlink 3.1 Hardware Module
+  LED_BUILTIN: GPIO2
+  MY_BOARD: "esp32doit-devkit-v1"
+```
