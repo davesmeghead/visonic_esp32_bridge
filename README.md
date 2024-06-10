@@ -44,7 +44,16 @@ PowerMaster Panels automatically change baud rate between 9600 and 38400. The pr
 It does this by counting communication errors and when a threshold is hit then it changes baud.  It also looks for the message that the powerlink module sends to the panel to change baud, and then changes the baud of both UARTs on the ESP32.
 
 ## Connectivity/Wiring Diagram
-To be completed
+For development purposes, using either a PC/Laptop or a USB mains plug to power the ESP32 hardware device.
+
+![bridge_usb](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/04cdf976-ff52-4774-b6f6-c0d58462a67c)
+
+For final installation use either a USB mains plug as above or use a step up / step down DC to DC convertor as per this diagram.
+
+![bridge_final](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/e29e2f85-b1f4-45ad-b7c9-707ec54f3a8d)
+
+Note that I have not yet done any power / current calculations for this setup.
+
 
 ## Configuration
 Download the yaml file and use it to configure an ESP32 hardware microcontroller using ESPHOME.
