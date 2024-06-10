@@ -46,11 +46,11 @@ It does this by counting communication errors and when a threshold is hit then i
 ## Connectivity/Wiring Diagram
 For development purposes, using either a PC/Laptop or a USB mains plug to power the ESP32 hardware device.
 
-![bridge_usb](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/39fc2e70-4e0e-43eb-91d1-07d49a056c02)
+![bridge_usb](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/0f886b6c-35a9-4fe5-a7b3-393e5a0d8fa8)
 
 For final installation use either a USB mains plug as above or use a step up / step down DC to DC convertor as per this diagram.
 
-![bridge_final](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/6dbc09fb-b2ee-4d28-ac0f-59a23bd50897)
+![bridge_final](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/7a4ff33c-f09e-47e4-bb13-23046483d8ca)
 
 Note that I have not yet done any power / current calculations for this setup.
 
