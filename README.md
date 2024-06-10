@@ -46,14 +46,13 @@ It does this by counting communication errors and when a threshold is hit then i
 ## Connectivity/Wiring Diagram
 For development purposes, using either a PC/Laptop or a USB mains plug to power the ESP32 hardware device.
 
-![bridge_usb](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/04cdf976-ff52-4774-b6f6-c0d58462a67c)
+![bridge_usb](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/39fc2e70-4e0e-43eb-91d1-07d49a056c02)
 
 For final installation use either a USB mains plug as above or use a step up / step down DC to DC convertor as per this diagram.
 
-![bridge_final](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/e29e2f85-b1f4-45ad-b7c9-707ec54f3a8d)
+![bridge_final](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/e271f7f8-76b1-4908-b31d-28c034d276d7)
 
 Note that I have not yet done any power / current calculations for this setup.
-
 
 ## Configuration
 Download the yaml file and use it to configure an ESP32 hardware microcontroller using ESPHOME.
