@@ -50,7 +50,7 @@ For development purposes, using either a PC/Laptop or a USB mains plug to power 
 
 For final installation use either a USB mains plug as above or use a step up / step down DC to DC convertor as per this diagram.
 
-![bridge_final](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/e271f7f8-76b1-4908-b31d-28c034d276d7)
+![bridge_final](https://github.com/davesmeghead/visonic_esp32_bridge/assets/10319422/6dbc09fb-b2ee-4d28-ac0f-59a23bd50897)
 
 Note that I have not yet done any power / current calculations for this setup.
 
